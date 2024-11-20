@@ -1,0 +1,6 @@
+jupyterlab
+fsspec
+requests
+aiohttp
+zarr
+numpy
