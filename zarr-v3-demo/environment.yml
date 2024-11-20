@@ -1,0 +1,10 @@
+name: zarr-v3-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab
+  - pip:
+      - git+https://github.com/zarr-developers/zarr-python.git@v3.0.0-beta.2
+      - requests
