@@ -1,0 +1,6 @@
+fsspec
+requests
+aiohttp
+zarr
+numpy
+pytest
