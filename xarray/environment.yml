@@ -1,1 +1,14 @@
-
+name: xarray-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab
+  - xarray
+  - dask
+  - netCDF4
+  - bottleneck
+  - pip:
+      - xarray
+      - requests
