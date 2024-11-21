@@ -6,11 +6,12 @@ url="https://zenodo.org/records/13305156/files/20200812-CardiomyocyteDifferentia
 wget -O test.with_root.zip "$url"
 
 # unzip to tmp folder
-mkdir tmp
+mkdir -p tmp
 unzip -d tmp test.with_root.zip
 cd tmp/*.zarr
 
 # create a zip without root folder
+rm -f ../../test.without_root.zip
 zip -r ../../test.without_root.zip *
 
 # remove the tmp folder
